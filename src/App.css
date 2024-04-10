@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans:500|IBM%20Plex%20Sans:300");
+
+/*  General  */
+
+
+.General_container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  height:100vh; /*Este valor lo puedes omitir si la altura de tu componente esta definida*/
+}
+
+.General_item-0{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+}
+      
+.General_item-1{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+}
+      
+.Genral_item-2{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+}
+      
+
+
+h1{
+  color:#00000000;
+  font-family:verdana;
+  text-shadow: 1px  0px 0px rgba(0, 0, 0, 0.144),
+               0px  1px 0px rgb(255, 255, 255),
+              -1px  0px 0px rgb(163, 158, 158),
+               0px -1px 0px rgb(128, 125, 125);
+}
+
+h1:hover{
+
+}
+
+
+/*  Finish General  */
+
+
+
+
+
+
+
+/* Login Styling */
+
+.panel_login{
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 0px 30px;
+}
+.login-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60vw;
+  height: 90vh;
+  background-color: #F1F0E8;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border-radius: 20px;
+}
+
+.login-content-form{
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.login-content-form > #email-login, #passw-login, #submit-login{
+  padding: 18px;
+  border-radius: 15px;
+  border-color: darkblue;
+  
+}
+
+
+.login-content-form > input[type=submit]{
+  cursor: pointer;
+  background-color: #FB5301BF;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+}
+
+login-content-form > a[type=submit]{
+  cursor: pointer;
+  background-color: #2C2C4C;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.login-content-logo{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-content-logo > h1{
+  color: #2C2C4C;
+}
+
+
+/* Login Finish */
